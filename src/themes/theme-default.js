@@ -83,7 +83,7 @@ class Theme {
     this.critBkgColor = 'calculated';
     this.todayLineColor = 'calculated';
 
-    this.sectionBkgColor = #F6B4C2;
+    this.sectionBkgColor = '#F6B4C2';
     this.altSectionBkgColor = 'white';
     this.sectionBkgColor2 = '#fff400';
     this.taskBorderColor = '#E13F5E';
