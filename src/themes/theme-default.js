@@ -5,10 +5,10 @@ class Theme {
   constructor() {
     /* Base variables */
     this.background = '#f4f4f4';
-    this.primaryColor = '#ECECFF';
+    this.primaryColor = '#E13F5E';
 
     this.secondaryColor = adjust(this.primaryColor, { h: 120 });
-    this.secondaryColor = '#ffffde';
+    this.secondaryColor = '#F6B4C2';
     this.tertiaryColor = adjust(this.primaryColor, { h: -160 });
     this.primaryBorderColor = mkBorder(this.primaryColor, this.darkMode);
     this.secondaryBorderColor = mkBorder(this.secondaryColor, this.darkMode);
@@ -22,16 +22,16 @@ class Theme {
     this.textColor = invert(this.background);
 
     this.background = 'white';
-    this.mainBkg = '#ECECFF';
-    this.secondBkg = '#ffffde';
-    this.lineColor = '#333333';
-    this.border1 = '#9370DB';
-    this.border2 = '#aaaa33';
-    this.arrowheadColor = '#333333';
+    this.mainBkg = '#E13F5E';
+    this.secondBkg = '#F6B4C2';
+    this.lineColor = '#2C2D32';
+    this.border1 = '#F6708E';
+    this.border2 = '#E3486A';
+    this.arrowheadColor = '#2C2D32';
     this.fontFamily = '"trebuchet ms", verdana, arial';
     this.fontSize = '16px';
     this.labelBackground = '#e8e8e8';
-    this.textColor = '#333';
+    this.textColor = '#2C2D32';
 
     /* Flowchart variables */
 
@@ -56,11 +56,11 @@ class Theme {
     this.labelTextColor = 'calculated';
     this.loopTextColor = 'calculated';
     this.noteBorderColor = 'calculated';
-    this.noteBkgColor = '#fff5ad';
+    this.noteBkgColor = '#E13F5E';
     this.noteTextColor = 'calculated';
-    this.activationBorderColor = '#666';
-    this.activationBkgColor = '#f4f4f4';
-    this.sequenceNumberColor = 'white';
+    this.activationBorderColor = '#2C2D32';
+    this.activationBkgColor = '#F6B4C2';
+    this.sequenceNumberColor = '#2C2D32';
 
     /* Gantt chart variables */
 
@@ -83,22 +83,22 @@ class Theme {
     this.critBkgColor = 'calculated';
     this.todayLineColor = 'calculated';
 
-    this.sectionBkgColor = rgba(102, 102, 255, 0.49);
+    this.sectionBkgColor = #F6B4C2;
     this.altSectionBkgColor = 'white';
     this.sectionBkgColor2 = '#fff400';
-    this.taskBorderColor = '#534fbc';
-    this.taskBkgColor = '#8a90dd';
+    this.taskBorderColor = '#E13F5E';
+    this.taskBkgColor = '#F6708E';
     this.taskTextLightColor = 'white';
     this.taskTextColor = 'calculated';
     this.taskTextDarkColor = 'black';
     this.taskTextOutsideColor = 'calculated';
-    this.taskTextClickableColor = '#003163';
-    this.activeTaskBorderColor = '#534fbc';
-    this.activeTaskBkgColor = '#bfc7ff';
+    this.taskTextClickableColor = '#E13F5E';
+    this.activeTaskBorderColor = '#E13F5E';
+    this.activeTaskBkgColor = '#F6708E';
     this.gridColor = 'lightgrey';
     this.doneTaskBkgColor = 'lightgrey';
     this.doneTaskBorderColor = 'grey';
-    this.critBorderColor = '#ff8888';
+    this.critBorderColor = '#E13F5E';
     this.critBkgColor = 'red';
     this.todayLineColor = 'red';
 
