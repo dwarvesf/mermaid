@@ -15,11 +15,11 @@ class Theme {
     this.tertiaryBorderColor = mkBorder(this.tertiaryColor, this.darkMode);
     // this.noteBorderColor = mkBorder(this.noteBkgColor, this.darkMode);
 
-    this.primaryTextColor = invert(this.primaryColor);
+    this.primaryTextColor = '#2C2D32';
     this.secondaryTextColor = invert(this.secondaryColor);
     this.tertiaryTextColor = invert(this.tertiaryColor);
     this.lineColor = invert(this.background);
-    this.textColor = invert(this.background);
+    this.textColor = '#2C2D32';
 
     this.background = 'white';
     this.mainBkg = '#F6708E';
@@ -31,7 +31,7 @@ class Theme {
     this.fontFamily = '"trebuchet ms", verdana, arial';
     this.fontSize = '16px';
     this.labelBackground = '#e8e8e8';
-    this.textColor = '#FFFFFF';
+    this.textColor = '#2C2D32';
 
     /* Flowchart variables */
 
