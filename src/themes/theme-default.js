@@ -41,7 +41,7 @@ class Theme {
     this.clusterBorder = 'calculated';
     this.defaultLinkColor = 'calculated';
     this.titleColor = 'calculated';
-    this.edgeLabelBackground = 'calculated';
+    this.edgeLabelBackground = '#666';
 
     /* Sequence Diagram variables */
 
@@ -125,8 +125,8 @@ class Theme {
     this.actorBorder = lighten(this.border1, 23);
     this.actorBkg = this.mainBkg;
     this.labelBoxBkgColor = this.actorBkg;
-    this.signalColor = this.textColor;
-    this.signalTextColor = this.textColor;
+    this.signalColor = "#666";
+    this.signalTextColor = "#666";
     this.labelBoxBorderColor = this.actorBorder;
     this.labelTextColor = this.actorTextColor;
     this.loopTextColor = this.actorTextColor;
