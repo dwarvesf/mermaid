@@ -24,14 +24,14 @@ class Theme {
     this.background = 'white';
     this.mainBkg = '#E13F5E';
     this.secondBkg = '#F6B4C2';
-    this.lineColor = '#2C2D32';
+    this.lineColor = '#FFFFFF';
     this.border1 = '#F6708E';
     this.border2 = '#E3486A';
-    this.arrowheadColor = '#2C2D32';
+    this.arrowheadColor = '#FFFFFF';
     this.fontFamily = '"trebuchet ms", verdana, arial';
     this.fontSize = '16px';
     this.labelBackground = '#e8e8e8';
-    this.textColor = '#2C2D32';
+    this.textColor = '#FFFFFF';
 
     /* Flowchart variables */
 
@@ -58,9 +58,9 @@ class Theme {
     this.noteBorderColor = 'calculated';
     this.noteBkgColor = '#E13F5E';
     this.noteTextColor = 'calculated';
-    this.activationBorderColor = '#2C2D32';
+    this.activationBorderColor = '#FFFFFF';
     this.activationBkgColor = '#F6B4C2';
-    this.sequenceNumberColor = '#2C2D32';
+    this.sequenceNumberColor = '#FFFFFF';
 
     /* Gantt chart variables */
 
