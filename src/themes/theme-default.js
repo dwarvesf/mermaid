@@ -24,10 +24,10 @@ class Theme {
     this.background = 'white';
     this.mainBkg = '#E13F5E';
     this.secondBkg = '#F6B4C2';
-    this.lineColor = '#FFFFFF';
+    this.lineColor = '#2C2D32';
     this.border1 = '#F6708E';
     this.border2 = '#E3486A';
-    this.arrowheadColor = '#FFFFFF';
+    this.arrowheadColor = '#2C2D32';
     this.fontFamily = '"trebuchet ms", verdana, arial';
     this.fontSize = '16px';
     this.labelBackground = '#e8e8e8';
@@ -58,9 +58,9 @@ class Theme {
     this.noteBorderColor = 'calculated';
     this.noteBkgColor = '#E13F5E';
     this.noteTextColor = 'calculated';
-    this.activationBorderColor = '#FFFFFF';
+    this.activationBorderColor = '#2C2D32';
     this.activationBkgColor = '#F6B4C2';
-    this.sequenceNumberColor = '#FFFFFF';
+    this.sequenceNumberColor = '#2C2D32';
 
     /* Gantt chart variables */
 
