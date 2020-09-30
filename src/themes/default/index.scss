@@ -1,9 +1,9 @@
 $mainBkg: #E13F5E;
 $secondBkg: #979797;
-$lineColor: #FFFFFF;
+$lineColor: #2C2D32;
 $border1: #F6708E;
 $border2: #F6B4C2;
-$arrowheadColor: #FFFFFF;
+$arrowheadColor: #2C2D32;
 
 /* Flowchart variables */
 
@@ -21,7 +21,7 @@ $edgeLabelcolor: #FFFFFF;
 $actorBorder: $border1;
 $actorBkg: $mainBkg;
 $actorTextColor: #FFFFFF;
-$actorLineColor: #FFFFFF;
+$actorLineColor: #2C2D32;
 $signalColor: #333;
 $signalTextColor: #333;
 $labelBoxBkgColor: $actorBkg;
@@ -31,7 +31,7 @@ $loopTextColor: $actorTextColor;
 $noteBorderColor: $border2;
 $noteBkgColor: #E13F5E;
 $noteTextColor: $actorTextColor;
-$activationBorderColor: #FFFFFF;
+$activationBorderColor: #2C2D32;
 $activationBkgColor: #F6B4C2;
 $sequenceNumberColor: #E13F5E;
 
@@ -44,20 +44,20 @@ $taskBorderColor: #E13F5E;
 $taskBkgColor: #F6708E;
 $taskTextLightColor: white;
 $taskTextColor: $taskTextLightColor;
-$taskTextDarkColor: #FFFFFF;
+$taskTextDarkColor: #2C2D32;
 $taskTextOutsideColor: $taskTextDarkColor;
 $taskTextClickableColor: #E13F5E;
 $activeTaskBorderColor: #E13F5E;
 $activeTaskBkgColor: #F6708E;
 $gridColor: lightgrey;
 $doneTaskBkgColor: lightgrey;
-$doneTaskBorderColor: #FFFFFF;
+$doneTaskBorderColor: #2C2D32;
 $critBorderColor: #F6708E;
 $critBkgColor: #E13F5E;
 $todayLineColor: #E13F5E;
 
 /* state colors */
-$labelColor: #FFFFFF;
+$labelColor: #2C2D32;
 
 $errorBkgColor: #552222;
 $errorTextColor: #552222;
