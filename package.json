@@ -106,10 +106,5 @@
   "sideEffects": [
     "**/*.css",
     "**/*.scss"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn test"
-    }
-  }
+  ]
 }
