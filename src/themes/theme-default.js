@@ -5,7 +5,7 @@ class Theme {
   constructor() {
     /* Base variables */
     this.background = '#f4f4f4';
-    this.primaryColor = '#E13F5E';
+    this.primaryColor = '#F6708E';
 
     this.secondaryColor = adjust(this.primaryColor, { h: 120 });
     this.secondaryColor = '#F6B4C2';
@@ -22,7 +22,7 @@ class Theme {
     this.textColor = invert(this.background);
 
     this.background = 'white';
-    this.mainBkg = '#E13F5E';
+    this.mainBkg = '#F6708E';
     this.secondBkg = '#F6B4C2';
     this.lineColor = '#2C2D32';
     this.border1 = '#F6708E';
@@ -47,7 +47,7 @@ class Theme {
 
     this.actorBorder = 'calculated';
     this.actorBkg = 'calculated';
-    this.actorTextColor = 'black';
+    this.actorTextColor = 'white';
     this.actorLineColor = 'grey';
     this.signalColor = 'calculated';
     this.signalTextColor = 'calculated';
@@ -56,7 +56,7 @@ class Theme {
     this.labelTextColor = 'calculated';
     this.loopTextColor = 'calculated';
     this.noteBorderColor = 'calculated';
-    this.noteBkgColor = '#E13F5E';
+    this.noteBkgColor = '#F6708E';
     this.noteTextColor = 'calculated';
     this.activationBorderColor = '#2C2D32';
     this.activationBkgColor = '#F6B4C2';
