@@ -4,18 +4,18 @@ import { mkBorder } from './theme-helpers';
 class Theme {
   constructor() {
     /* Base variables */
-    this.background = '#f4f4f4';
-    this.primaryColor = '#F6708E';
+    this.background = '#FCEAED';
+    this.primaryColor = '#E13F5E';
 
     this.secondaryColor = adjust(this.primaryColor, { h: 120 });
-    this.secondaryColor = '#F6B4C2';
+    this.secondaryColor = '#FFFFFF';
     this.tertiaryColor = adjust(this.primaryColor, { h: -160 });
     this.primaryBorderColor = mkBorder(this.primaryColor, this.darkMode);
     this.secondaryBorderColor = mkBorder(this.secondaryColor, this.darkMode);
     this.tertiaryBorderColor = mkBorder(this.tertiaryColor, this.darkMode);
     // this.noteBorderColor = mkBorder(this.noteBkgColor, this.darkMode);
 
-    this.primaryTextColor = '#2C2D32';
+    this.primaryTextColor = '#E13F5E';
     this.secondaryTextColor = invert(this.secondaryColor);
     this.tertiaryTextColor = invert(this.tertiaryColor);
     this.lineColor = invert(this.background);
