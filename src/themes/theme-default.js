@@ -21,7 +21,7 @@ class Theme {
     this.lineColor = invert(this.background);
     this.textColor = '#E13F5E';
 
-    this.mainBkg = '#F6708E';
+    this.mainBkg = '#FCEAED';
     this.secondBkg = '#F6B4C2';
     this.lineColor = '#E13F5E';
     this.border1 = '#F6708E';
@@ -126,7 +126,7 @@ class Theme {
     this.signalColor = "#666";
     this.signalTextColor = "#666";
     this.labelBoxBorderColor = this.actorBorder;
-    this.labelTextColor = this.actorTextColor;
+    this.labelTextColor = "#23252C";
     this.loopTextColor = this.actorTextColor;
     this.noteBorderColor = this.border2;
     this.noteTextColor = this.actorTextColor;
