@@ -45,7 +45,7 @@ class Theme {
 
     this.actorBorder = 'calculated';
     this.actorBkg = 'calculated';
-    this.actorTextColor = this.primaryTextColor;
+    this.actorTextColor = '#23252C';
     this.actorLineColor = 'grey';
     this.signalColor = 'calculated';
     this.signalTextColor = 'calculated';
