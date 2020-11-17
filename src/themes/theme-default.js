@@ -23,10 +23,10 @@ class Theme {
 
     this.mainBkg = '#FCEAED';
     this.secondBkg = '#F6B4C2';
-    this.lineColor = '#E13F5E';
+    this.lineColor = '#23252C';
     this.border1 = '#F6708E';
     this.border2 = '#E3486A';
-    this.arrowheadColor = '#2C2D32';
+    this.arrowheadColor = '#23252C';
     this.fontFamily = '"trebuchet ms", verdana, arial';
     this.fontSize = '14px';
     this.labelBackground = '#ffffff';
