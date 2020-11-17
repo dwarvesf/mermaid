@@ -19,7 +19,7 @@ class Theme {
     this.secondaryTextColor = invert(this.secondaryColor);
     this.tertiaryTextColor = invert(this.tertiaryColor);
     this.lineColor = invert(this.background);
-    this.textColor = '#E13F5E';
+    this.textColor = '#23252C';
 
     this.mainBkg = '#FCEAED';
     this.secondBkg = '#F6B4C2';
