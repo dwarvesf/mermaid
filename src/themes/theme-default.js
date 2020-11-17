@@ -19,19 +19,17 @@ class Theme {
     this.secondaryTextColor = invert(this.secondaryColor);
     this.tertiaryTextColor = invert(this.tertiaryColor);
     this.lineColor = invert(this.background);
-    this.textColor = '#2C2D32';
+    this.textColor = '#E13F5E';
 
-    this.background = 'white';
     this.mainBkg = '#F6708E';
     this.secondBkg = '#F6B4C2';
-    this.lineColor = '#2C2D32';
+    this.lineColor = '#E13F5E';
     this.border1 = '#F6708E';
     this.border2 = '#E3486A';
     this.arrowheadColor = '#2C2D32';
     this.fontFamily = '"trebuchet ms", verdana, arial';
-    this.fontSize = '16px';
-    this.labelBackground = '#e8e8e8';
-    this.textColor = '#2C2D32';
+    this.fontSize = '14px';
+    this.labelBackground = '#ffffff';
 
     /* Flowchart variables */
 
