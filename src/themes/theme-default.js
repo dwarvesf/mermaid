@@ -43,11 +43,12 @@ class Theme {
 
     /* Sequence Diagram variables */
 
-    this.actorBorder = 'calculated';
-    this.actorBkg = 'calculated';
+    this.actorBorder = '#F6708E';
+    this.actorBkg = '#4E4C4D';
     this.actorTextColor = '#23252C';
     this.actorLineColor = 'grey';
     this.signalColor = 'calculated';
+
     this.signalTextColor = 'calculated';
     this.labelBoxBkgColor = 'calculated';
     this.labelBoxBorderColor = 'calculated';
@@ -123,8 +124,8 @@ class Theme {
     this.actorBorder = lighten(this.border1, 23);
     this.actorBkg = this.mainBkg;
     this.labelBoxBkgColor = this.actorBkg;
-    this.signalColor = "#666";
-    this.signalTextColor = "#666";
+    this.signalColor = "#23252C";
+    this.signalTextColor = "#23252C";
     this.labelBoxBorderColor = this.actorBorder;
     this.labelTextColor = "#23252C";
     this.loopTextColor = this.actorTextColor;
