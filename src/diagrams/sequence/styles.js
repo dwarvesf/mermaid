@@ -1,6 +1,6 @@
 const getStyles = options =>
   `.actor {
-    stroke: ${options.actorBorder};
+    stroke: #E13F5E;
     fill: ${options.actorBkg};
   }
 
