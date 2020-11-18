@@ -137,15 +137,14 @@ const getStyles = options =>
   .taskText1,
   .taskText2,
   .taskText3 {
-    fill: ${options.taskTextColor};
   }
 
   .task0,
   .task1,
   .task2,
   .task3 {
-    fill: ${options.taskBkgColor};
-    stroke: ${options.taskBorderColor};
+    fill: #FCEAED;
+    stroke: #F6708E;
   }
 
   .taskTextOutside0,
