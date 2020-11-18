@@ -15,7 +15,7 @@ class Theme {
     this.tertiaryBorderColor = mkBorder(this.tertiaryColor, this.darkMode);
     // this.noteBorderColor = mkBorder(this.noteBkgColor, this.darkMode);
 
-    this.primaryTextColor = '#E13F5E';
+    this.primaryTextColor = '#4e4c4d';
     this.secondaryTextColor = invert(this.secondaryColor);
     this.tertiaryTextColor = invert(this.tertiaryColor);
     this.lineColor = invert(this.background);
