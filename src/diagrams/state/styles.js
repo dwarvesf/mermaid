@@ -11,8 +11,7 @@ g.stateGroup text {
 
 }
 g.stateGroup .state-title {
-  font-weight: bolder;
-  fill: ${options.labelColor};
+  font-weight: 400;
 }
 
 g.stateGroup rect {

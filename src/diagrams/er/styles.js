@@ -6,12 +6,6 @@ const getStyles = options =>
   }
 
   .relationshipLabelBox {
-    fill: ${options.tertiaryColor};
-    opacity: 0.7;
-    background-color: ${options.tertiaryColor};
-      rect {
-        opacity: 0.5;
-      }
   }
 
     .relationshipLine {
